@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding-bottom: 5%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 150pt;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);;
+    justify-content: center;
+}
+
+.header {
+    color: black;
+    font-size: 5em;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin-bottom: 12pt;
+}
+
+.pfp {
+    width: 10%;
+    display: block;
+}
+
+.info {
+    height: 100%;
+    margin: 0 14%;
+    padding-bottom: 50pt;
+}
+
+.section {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 5;
+    margin-bottom: 5;
+    font-size: 1.5em;
+    font-style: Copperplate, Papyrus, fantasy;
+}
+
+.points {
+    height: 10%;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+}
+
+.point {
+    list-style-type: korean-hanja-informal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: red
+}
